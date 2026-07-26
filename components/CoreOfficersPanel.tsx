@@ -14,12 +14,12 @@ const leadOfficers = [
   { name: "Mico Aldred Makilan", role: "Executive Assistant" },
 ];
 
-const glassHeader = "backdrop-blur-md bg-white/20 border border-white/20 rounded-2xl px-8 py-3 shadow-lg";
+const glassHeader = "backdrop-blur-md bg-white/60 border border-black/10 rounded-2xl px-8 py-3 shadow-lg";
 
 export default function CoreOfficersPanel() {
   return (
     <div className="flex flex-col items-center gap-6 max-w-5xl mx-auto">
-      <div className={`${glassHeader} border-b-2 border-b-yellow-400`}>
+      <div className={glassHeader}>
         <h2 className="text-2xl font-mono tracking-wide text-gray-900 text-center">Core Officers</h2>
       </div>
 

@@ -9,7 +9,7 @@ const sbdAssociates = [
   { code: "AIML", fullName: "AI/Machine Learning", associates: ["TBD", "TBD", "TBD"] },
 ];
 
-const glassHeader = "backdrop-blur-md bg-white/20 border border-white/20 rounded-2xl px-8 py-3 shadow-lg";
+const glassHeader = "backdrop-blur-md bg-white/60 border border-black/10 rounded-2xl px-8 py-3 shadow-lg";
 
 const bluePill = [
   "bg-gradient-to-b from-blue-400 to-blue-600",

@@ -36,7 +36,7 @@ const tier5Pairs = [
   },
 ];
 
-const glassHeader = "backdrop-blur-md bg-white/20 border border-white/20 rounded-2xl px-8 py-3 shadow-lg";
+const glassHeader = "backdrop-blur-md bg-white/60 border border-black/10 rounded-2xl px-8 py-3 shadow-lg";
 
 const tealPill = [
   "bg-gradient-to-b from-teal-300 to-teal-500",

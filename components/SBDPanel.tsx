@@ -12,7 +12,7 @@ const sbdTracks = [
   { code: "AIML", fullName: "AI/Machine Learning", lead: "TBD", coLead: "TBD" },
 ];
 
-const glassHeader = "backdrop-blur-md bg-white/20 border border-white/20 rounded-2xl px-8 py-3 shadow-lg";
+const glassHeader = "backdrop-blur-md bg-white/60 border border-black/10 rounded-2xl px-8 py-3 shadow-lg";
 
 const purplePill = [
   "bg-gradient-to-b from-purple-400 to-purple-600",

@@ -232,15 +232,17 @@ export default function Nav({ onNavigate, activeIndex }: NavProps) {
           isActive={activeIndex === 0}
           onClick={() => onNavigate(0)}
           size="md"
+          className="w-full"
         />
         <NavButton
           label="Events"
           isActive={activeIndex === 1}
           onClick={() => onNavigate(1)}
           size="md"
+          className="w-full"
         />
 
-        <div ref={sideRef} className="relative">
+        <div ref={sideRef} className="relative w-full">
           <NavButton
             label="Members"
             isActive={isMembersActive}
@@ -260,12 +262,14 @@ export default function Nav({ onNavigate, activeIndex }: NavProps) {
           isActive={activeIndex === 6}
           onClick={() => onNavigate(6)}
           size="md"
+          className="w-full"
         />
         <NavButton
           label="Contact Us"
           isActive={activeIndex === 7}
           onClick={() => onNavigate(7)}
           size="md"
+          className="w-full"
         />
 
         <button
