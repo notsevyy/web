@@ -4,7 +4,7 @@ type HomePanelProps = {
   onNavigate: (index: number) => void;
 };
 
-const GFORM_URL = "https://forms.gle/REPLACE_ME";
+const GFORM_URL = "https://forms.gle/T34GWb27BUFfe4JV7";
 const APPLICATIONS_OPEN = true;
 
 const pillBase =
